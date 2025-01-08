@@ -10,7 +10,7 @@ public class infinitySortedArray {
 
         while(target > arr[end]){
             int newStart = end + 1;
-            end = start + (end - start + 1) * 2;
+            end = end + (end - start + 1) * 2;
             start = newStart;
         }
 

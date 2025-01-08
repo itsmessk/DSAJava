@@ -26,7 +26,7 @@ public class binary{
         //         if(target < arr[mid]){
         //             end = mid -1;
         //         }
-        //         else {
+        //         else {   
         //             start = mid + 1;
         //         }
         //     }
