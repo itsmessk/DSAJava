@@ -1,0 +1,20 @@
+printLinkedList(head);
+        System.out.println();
+        head = deleteAtHead(head);
+        printLinkedList(head);
+        System.out.println();
+        head = deleteAtTail(head);
+        printLinkedList(head);
+        System.out.println();
+        head = deleteAtPosition(head, 4);
+        printLinkedList(head);
+        System.out.println();
+        head = deleteNodeElement(head, 1);
+        printLinkedList(head);
+        System.out.println();
+        head = insertAtHead(head, 0);
+        printLinkedList(head);  
+
+        System.out.println();
+        head = insertAtEnd(head, 10);
+        printLinkedList(head);
