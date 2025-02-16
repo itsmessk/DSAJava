@@ -52,4 +52,3 @@ public class DecimalToBinary {
         return dec;
     }
 }
-1
